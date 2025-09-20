@@ -4,7 +4,6 @@ backend:
   branch: main
   auth_type: "oauth"               # added for GitHub Pages authentication
   client_id: "Ov23li7MMlJW9hx8PM51"        # From GitHub OAuth App
-  client_secret: "6f36f491f45c6c8a9a7ae4abf9af53e34f3c31b6" # From GitHub OAuth App
 
 media_folder: "static/img/uploads"
 public_folder: "/img/uploads"
