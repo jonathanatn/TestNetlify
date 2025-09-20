@@ -11,13 +11,12 @@
     <div id="cms-root"></div>
 
     <!-- Load Decap CMS -->
-    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js" onload="CMS.init()"></script>
 
-    <!-- Initialize CMS AFTER loading the script -->
-    <script>
-      window.addEventListener('DOMContentLoaded', function() {
-        CMS.init();
-      });
+
     </script>
   </body>
 </html>
+
+
+
